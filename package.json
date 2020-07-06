@@ -2,9 +2,9 @@
   "name": "crunch",
   "version": "1.0.0",
   "description": "",
-  "main": "api/index.js",
+  "main": "api/endpoint.js",
   "scripts": {
-    "dev": "nodemon api/index.js"
+    "dev": "nodemon api/endpoint.js"
   },
   "author": "",
   "license": "ISC",
