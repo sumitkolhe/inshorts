@@ -14,7 +14,7 @@ This API supports category wise news. Here is a complete list of all categories.
 2. National //Indian News only
 3. Business
 4. Sports
-5. world
+5. World
 6. Politics
 7. Technology
 8. Startup
@@ -23,10 +23,10 @@ This API supports category wise news. Here is a complete list of all categories.
 11. Automobile
 
 
-#### You can also check the API endpoints here https://inshorts.vercel.app
+#### You can check all the API endpoints here https://inshorts.vercel.app
 ---
 
-## Usage
+## :mag: Usage
 
 Make a `GET`request to the required API endpoint to get the corresponding news in JSON format
 ```
@@ -94,9 +94,12 @@ npm install
 vercel dev
 ```
 
-> NOTE: **You will need to deploy the project to Vercel first to even run it locally. The Vercel CLI wil guide you through the process**
+> **NOTE:** You will need to deploy the project to Vercel first even if you want to run it locally using `vercel dev`. The Vercel CLI wil guide you through the process.
 ---
 
 ## :rocket: Deploy to Vercel
+
+**You can directly deploy this repo to your Vercel account by clicking the button below.**
+<br>
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/gatsby)
