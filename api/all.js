@@ -18,16 +18,16 @@ module.exports = (req, res) => {
     var str = JSON.stringify(obj);
     var convertedStr = str.replace(/(\\")*(\\n)*(\\t)*/g, "");
     var newObj = JSON.parse(convertedStr);
-   
+
     responseJson["category"] = "all";
     responseJson["total"] = totalArticles;
-    responseJson["articles"] = newObj; 
-    for (var i in responseJson.articles){
-      
-      responseJson.articles[i].image= responseJson.articles[i].image.split("'")[1];
-      
+    responseJson["articles"] = newObj;
+    for (var i in responseJson.articles) {
+      responseJson.articles[i].image = responseJson.articles[i].image.split(
+        "'"
+      )[1];
     }
-    
+
     res.json(responseJson);
   });
 };
