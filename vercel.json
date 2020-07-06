@@ -1,0 +1,20 @@
+{
+  "version": 2,
+
+  "routes": [
+    { "src": "/", "dest": "/api/endpoints.js" },
+    { "src": "/all", "dest": "/api/all.js" },
+    { "src": "/national", "dest": "/api/national.js" },
+    { "src": "/business", "dest": "/api/business.js" },
+    { "src": "/sports", "dest": "/api/sports.js" },
+    { "src": "/world", "dest": "/api/world.js" },
+    { "src": "/politics", "dest": "/api/politics.js" },
+    { "src": "/technology", "dest": "/api/technology.js" },
+    { "src": "/startup", "dest": "/api/startup.js" },
+    { "src": "/entertainment", "dest": "/api/entertainment.js" },
+    { "src": "/miscellaneous", "dest": "/api/miscellaneous.js" },
+    { "src": "/science", "dest": "/api/science.js" },
+    { "src": "/automobile", "dest": "/api/automobile.js" },
+    { "src": "/hatke", "dest": "/api/hatke.js" }
+  ]
+}
