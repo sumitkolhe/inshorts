@@ -10,17 +10,17 @@
 
 This API supports category wise news. Here is a complete list of all categories.
 
-1. all
-2. national //Indian News only
-3. business
-4. sports
+1. All
+2. National //Indian News only
+3. Business
+4. Sports
 5. world
-6. politics
-7. technology
-8. startup
-9. entertainment
-10. science
-11. automobile
+6. Politics
+7. Technology
+8. Startup
+9. Entertainment
+10. Science
+11. Automobile
 
 
 #### You can also check the API endpoints here https://inshorts.vercel.app
@@ -28,7 +28,7 @@ This API supports category wise news. Here is a complete list of all categories.
 
 ## Usage
 
-Make a get to the required API endpoint to get the corresponding news in JSON format
+Make a `GET`request to the required API endpoint to get the corresponding news in JSON format
 ```
 https://inshorts.vercel.app/{category}
 ```
@@ -69,9 +69,9 @@ The response JSON Object looks something like this -
 ---
 ## :construction_worker: Setup 
 
-This API is created as a collection of multiple different serverless functions that are specifically made to be hosted on **Vercel**. You can modify the code to work with **Node based servers** or as **AWS Lambda functions**
+This API is created as a collection of multiple different serverless functions that are specifically made to be hosted on **Vercel**. You can modify the code to make it work with **Nodejs based server** or as **AWS Lambda functions**
 
-#### Run locally
+### Run locally
 * You will need Vercel CLI to run this locally. 
 ```
 npm i -g vercel
