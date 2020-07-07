@@ -102,4 +102,4 @@ vercel dev
 **You can directly deploy this repo to your Vercel account by clicking the button below.**
 <br>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/gatsby)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/sumitkolhe/Inshorts-news-api)
