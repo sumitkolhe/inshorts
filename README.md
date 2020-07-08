@@ -81,6 +81,7 @@ npm i -g vercel
 * Clone the Repo
 ```
 $ git clone https://github.com/sumitkolhe/Inshorts-news-api
+
 $ cd Inshorts-news-api
 ```
 
