@@ -2,7 +2,7 @@
 
 ---
 
-#### This is an Unofficial API for inshorts news platform. You can fetch news from multiple different sources as gathered by the inshorts platform.
+#### This is an Unofficial API for inshorts news platform. You can fetch news from multiple different sources as gathered by the inshorts platform. Check the better, improved v2 of this api here(https://github.com/sumitkolhe/inshorts-api-v2) 
 
 ---
 
