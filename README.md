@@ -84,7 +84,7 @@ The response JSON Object looks something like this -
   ```
   $ git clone https://github.com/sumitkolhe/inshorts-api
 
-  $ cd inshorts-api-v2
+  $ cd inshorts-api
   ```
 
 - Install the dependencies
