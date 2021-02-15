@@ -31,7 +31,7 @@ Make a `GET`request to the **Base endpoint** with the name of the category to ge
 https://inshortsv2.vercel.app/news?category={category name}
 ```
 
-**Example** - https://inshorts.vercel.app/news?type=technology
+**Example** - https://inshorts.vercel.app/news?category=technology
 
 
 ---
