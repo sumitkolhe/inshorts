@@ -1,8 +1,6 @@
-# 📰 Inshorts News API [UNOFFICIAL]
+# 📰 Inshorts News API
 
----
-
-#### This is an Unofficial API for inshorts news platform. You can fetch news from multiple different sources as gathered by the inshorts platform. Check the better, improved v2 of this api [here](https://github.com/sumitkolhe/inshorts-api-v2) 
+#### An Unofficial API for inshorts news platform. This version uses web-scraping to get news articles from inshorts.com. For a better, faster API checkout v2 of this API [here.](https://github.com/sumitkolhe/inshorts-api-v2) 
 
 ---
 
@@ -10,97 +8,106 @@
 
 This API supports category wise news. Here is a complete list of all categories.
 
-1. All
-2. National //Indian News only
-3. Business
-4. Sports
-5. World
-6. Politics
-7. Technology
-8. Startup
-9. Entertainment
-10. Science
-11. Automobile
+1. all
+2. national // indian News only
+3. business
+4. sports
+5. world
+6. politics
+7. technology
+8. startup
+9. entertainment
+10. science
+11. automobile
+
+# :mag: Usage
+
+You can use either of the categories from [News Categories](#card_file_box-news-categories)
+
+**Base endpoint :** `https://inshorts.vercel.app/news`
+
+Make a `GET`request to the **Base endpoint** with the name of the category to get the corresponding news in JSON format
+
+```
+https://inshortsv2.vercel.app/news?category={category name}
+```
+
+**Example** - https://inshorts.vercel.app/news?type=technology
 
 
-#### You can check all the API endpoints here https://inshorts.vercel.app
 ---
 
-## :mag: Usage
+#### # Response Format
 
-Make a `GET`request to the required API endpoint to get the corresponding news in JSON format
-```
-https://inshorts.vercel.app/{category}
-```
-Example - https://inshorts.vercel.app/science
-
----
-
-### Response Format
-
-The response JSON Object looks something like this - 
+The response JSON Object looks something like this -
 
 ```JSON
 {
-  "category": "all",
-  "total": 25,
+  "category": "technology",
+  "total": 2,
   "articles": [
     {
-      "title": "      India's Zydus Cadila gets approval from Mexico to test potential COVID-19 drug    ",
-      "description": "Ahmedabad-based Zydus Cadila said it has received approval from Mexico's regulatory authority COFEPRIS to test its research candidate Desidustat in the management of COVID-19 patients. Zydus will conduct a study to evaluate the drug's efficacy and safety. It said that 100 mg Desidustat tablets will be administered for a period of 14 days alongside recommended standard care during the trial.",
-      "author": "Dharna",
-      "inshorts_link": "https://inshorts.com/en/news/indias-zydus-cadila-gets-approval-from-mexico-to-test-potential-covid19-drug-1594020666487",
-      "image": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2020/07_jul/6_mon/img_1594016494612_66.jpg?",
-      "timestamp": "2020-07-06T07:31:06.000Z",
-      "read_more": "https://www.indiatvnews.com/amp/business/news-zydus-cadila-covid-19-drug-desidustat-tablets-testing-mexican-authority-cofepris-631995?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "
+      "title": "      11th Gen processor, Iris Xe graphics give intelligent performance: Intel    ",
+      "description": "Intel introduced the 11th Gen Intel Core processor with Intel Iris Xe graphics which aims to deliver intelligent performance that revolutionizes creative workflows, enabling amazing new photo and video editing capabilities at incredible speeds. With up to 2.7x faster content creation, it strives to make creating content and visuals more wonderful and helps you get things done wherever you are.",
+      "author": "Roshan Gupta",
+      "inshorts_link": "https://inshorts.com/en/news/11th-gen-processor-iris-xe-graphics-give-intelligent-performance-intel-1613371826082",
+      "image": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2021/02_feb/15_mon/img_1613364654995_213.jpg?",
+      "timestamp": "2021-02-15T06:50:26.000Z",
+      "read_more": "https://inshorts.com/safe_redirect?url=https://www.amazon.in/stores/page/2F859F93-DB64-404A-9838-33E2CEBDF376?ingress=3&visitId=04ddd782-946b-4d1f-8215-96455f13a693&channel=km2021q1Considerationdisplay&inshorts_open_externally=true "
     },
     {
-      "title": "      WHO team to visit China next week to probe origins of coronavirus    ",
-      "description": "A WHO team will visit China next week to investigate the origins of the coronavirus and its spread to human beings, Dr Soumya Swaminathan, Chief Scientist, WHO said. Studies in South-East Asia show bats have lots of coronaviruses...There are also previous studies showing populations in southern China and other South-East Asian countries have antibodies to coronaviruses, she added.",
-      "author": "Nandini Sinha",
-      "inshorts_link": "https://inshorts.com/en/news/who-team-to-visit-china-next-week-to-probe-origins-of-coronavirus-1593869550189",
-      "image": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2020/07_jul/4_sat/img_1593865807516_20.jpg?",
-      "timestamp": "2020-07-04T13:32:30.000Z",
-      "read_more": "https://www.aninews.in/news/national/general-news/who-team-to-visit-china-next-week-to-investigate-origins-of-coronavirus20200704105445/?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "
+      "title": "      Only if necessary: Musk to man who suggested him to develop 'ElonCoin'    ",
+      "description": "World's richest man Elon Musk on Monday responded to a man who suggested him to develop a new cryptocurrency called 'ElonCoin'. Develop a new ElonCoin, offer them to the existing non-major Dogecoin holders to void their wallet, the man had tweeted. Allocate your time and support to make the ElonCoin the currency of the Earth, the man tweeted to Musk.",
+      "author": "Pragya Swastik",
+      "inshorts_link": "https://inshorts.com/en/news/only-if-necessary-musk-to-man-who-suggested-him-to-develop-eloncoin-1613392800342",
+      "image": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2021/02_feb/15_mon/img_1613390973651_68.jpg?",
+      "timestamp": "2021-02-15T12:40:00.000Z",
+      "read_more": "https://twitter.com/elonmusk/status/1361262357205442562?s=20&utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "
     }
   ]
 }
 ```
----
-## :construction_worker: Setup 
 
-This API is created as a collection of multiple different serverless functions that are specifically made to be hosted on **Vercel**. You can modify the code to make it work with **Nodejs based server** or as **AWS Lambda functions**
+---
+
+## :construction_worker: Local development
+
+### Prerequisites
+
+- NodeJS v10+
+- Vercel CLI : To install Vercel CLI globally use `npm i -g vercel`
 
 ### Run locally
-* You will need Vercel CLI to run this locally. 
-```
-npm i -g vercel
-```
-* Login into vercel CLI by following documentation here https://vercel.com/docs/cli#commands/login
 
-* Clone the Repo
-```
-$ git clone https://github.com/sumitkolhe/Inshorts-news-api
+- Clone the Repo
 
-$ cd Inshorts-news-api
-```
+  ```
+  $ git clone https://github.com/sumitkolhe/inshorts-api
 
-* Install the dependencies
-```
-npm install
-```
+  $ cd inshorts-api-v2
+  ```
 
-* Run the API 
-```
-vercel dev
-```
+- Install the dependencies
 
-> **NOTE:** You will need to deploy the project to Vercel first even if you want to run it locally using `vercel dev`. The Vercel CLI wil guide you through the process.
----
+  ```
+  npm install
+  ```
 
-## :rocket: Deploy to Vercel
+- Start development server
+
+  ```
+  npm start
+  ```
+
+- Deploy to your vercel account
+
+  ```
+  npm run deploy
+  ```
+
+# :rocket: Deploy to Vercel
 
 **You can directly deploy this repo to your Vercel account by clicking the button below.**
 <br>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/sumitkolhe/Inshorts-news-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/sumitkolhe/inshorts-api)
