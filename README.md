@@ -1,6 +1,8 @@
+# DEPRECATED
+
 # 📰 Inshorts News API
 
-#### An Unofficial API for inshorts news platform. This version uses web-scraping to get news articles from inshorts.com. For a better, faster API checkout v2 of this API [here.](https://github.com/sumitkolhe/inshorts-api-v2) 
+#### Please use - [Inshorts API](https://github.com/sumitkolhe/inshorts-api) 
 
 
 ## :card_file_box: News Categories
