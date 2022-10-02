@@ -1,7 +1,5 @@
 # DEPRECATED
 
-# 📰 Inshorts News API
-
 #### Please use - [Inshorts API](https://github.com/sumitkolhe/inshorts-api) 
 
 
@@ -25,15 +23,15 @@ This API supports category wise news. Here is a complete list of all categories.
 
 You can use either of the categories from [News Categories](#card_file_box-news-categories)
 
-**Base endpoint :** `https://inshorts.vercel.app/news`
+**Base endpoint :** `https://inshorts-deprecated.vercel.app/news`
 
 Make a `GET`request to the **Base endpoint** with the name of the category to get the corresponding news in JSON format
 
 ```
-https://inshortsv2.vercel.app/news?category={category name}
+https://inshorts-deprecated.vercel.app/news?category={category name}
 ```
 
-**Example** - https://inshorts.vercel.app/news?category=technology
+**Example** - https://inshorts-deprecated.vercel.app/news?category=technology
 
 
 ---
@@ -83,7 +81,7 @@ The response JSON Object looks something like this -
 - Clone the Repo
 
   ```
-  $ git clone https://github.com/sumitkolhe/inshorts-api
+  $ git clone https://github.com/sumitkolhe/inshorts-deprecated
 
   $ cd inshorts-api
   ```
@@ -111,4 +109,4 @@ The response JSON Object looks something like this -
 **You can directly deploy this repo to your Vercel account by clicking the button below.**
 <br>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/sumitkolhe/inshorts-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/sumitkolhe/inshorts-deprecated)
